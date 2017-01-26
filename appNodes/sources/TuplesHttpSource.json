@@ -1,0 +1,56 @@
+{
+  "appNodeUri": [
+    "sources",
+    "TuplesHttpSource"
+  ],
+  "name": "TuplesHttpSource",
+  "version": 0,
+  "configuration": {
+    "sourceUrl": "/Data-Blitz-Analytics",
+    "sourcePort": 8872
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "TuplesHttpSource"
+      ],
+      "logLevel": 2
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "sources/tuplesHttpSource",
+  "dependencies": {
+
+    "polyglotController": {
+      "appNodeUri": [
+        "polyglotControllers",
+        "PolyglotController"
+      ]
+    },
+
+    "urlDslHandler": {
+      "appNodeUri": [
+        "handlers",
+        "dslHandlers",
+        "UrlDslHandler"
+      ]
+    },
+    "bodyDslHandler": {
+      "appNodeUri": [
+        "handlers",
+        "dslHandlers",
+        "BodyDslHandler"
+      ]
+    },
+    "mergeDslHandler": {
+      "appNodeUri": [
+        "handlers",
+        "dslHandlers",
+        "MergeDslHandler"
+      ]
+    }
+  }
+}

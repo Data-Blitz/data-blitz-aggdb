@@ -1,0 +1,28 @@
+{
+  "name":"Data-Blitz-Analytics",
+  "version":0,
+  "configuration":{
+  },
+  "appNodeRepoAccessor": {
+    "configuration": {
+      "runTimeDirectory": "./",
+      "componentBase": "appNodes"
+    },
+    "impl": "./repoAccessors/appNodeRepoAccessors/AppNodeRepoFileSystemAccessor.js"
+  },
+  "implSourceRepoAccessor": {
+    "configuration": {
+      "componentBase": "implementations"
+    },
+    "impl": "./repoAccessors/sourceRepoAccessors/SourceRepoFileSystemAccessor.js"
+  },
+  "logger": {
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "rootAppNodeUri":["root","Data-Blitz-Analytics"],
+  "actions":["build","ready","run"]
+}
+

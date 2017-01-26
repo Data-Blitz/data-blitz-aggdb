@@ -1,0 +1,10 @@
+{
+  "appNodeUri": ["loggers","ConsoleLogger"],
+  "name": "ConsoleLogger",
+  "version": 0,
+  "configuration": {
+    "description":"this is simple logger logs it to Standard output",
+    "logLevel": 1
+  },
+  "implPath": "loggers/ConsoleLogger"
+}

@@ -1,0 +1,26 @@
+{
+  "appNodeUri": [
+    "dataStoreControllers",
+    "ElasticSearchDataStoreController"
+  ],
+  "name": "ElasticSearchDataStoreDataController",
+  "type": "dataStoreController",
+  "version": 0,
+  "configuration": {
+    "url": "localhost",
+    "port": 9200,
+    "log":"trace"
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "ElasticSearchDataStoreDataController"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "dataStoreControllers/elasticSearchDataStoreController"
+}

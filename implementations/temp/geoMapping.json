@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "head-count": {
+      "properties": {
+        "geometry": {
+          "type": "geo_point"
+        }
+      }
+    }
+  }
+}

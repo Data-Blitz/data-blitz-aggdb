@@ -1,0 +1,19 @@
+{
+  "name": "data-source",
+  "description": "the package for Data-Blitz data-store ",
+  "author": "Paul Harvener, Data-Blitz",
+  "dependencies": {
+    "async": "^1.5.0",
+    "body-parser": "^1.14.2",
+    "cradle": "^0.6.9",
+    "elasticsearch": "^10.0.1",
+    "express": ">= 1.2.0",
+    "jsonfile": "^2.2.3",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "node-json-csv": "^1.1.0",
+    "node-uuid": "^1.4.7",
+    "winston": "^2.1.1"
+  },
+  "engine": "node 0.10.34"
+}

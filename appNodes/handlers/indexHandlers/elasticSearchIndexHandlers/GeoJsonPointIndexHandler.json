@@ -1,0 +1,15 @@
+{
+  "appNodeUri": ["handlers","indexHandlers","elasticSearchIndexHandlers","GeoJsonPointIndexHandler"],
+  "name": "GeoJsonPointIndexHandler",
+  "version": 0,
+  "configuration": {
+  },
+  "logger":{
+    "configuration":{
+      "idTag":["GeoJsonPointIndexHandler"],
+      "logLevel":2
+    },
+    "appNodeUri": ["loggers","WinstonLogger"]
+  },
+  "implPath": "handlers/indexHandlers/elasticSearchIndexHandlers/geoJsonPointIndexHandler"
+}

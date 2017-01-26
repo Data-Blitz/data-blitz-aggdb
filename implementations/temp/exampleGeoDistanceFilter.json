@@ -1,0 +1,15 @@
+{
+  "query": {
+    "filtered": {
+      "filter": {
+        "geo_distance": {
+          "distance": "1km",
+          "geometry": {
+            "lat": -93.100705,
+            "lon": 44.945461
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "appNodeUri": [
+    "root",
+    "Data-Blitz-Analytics"
+  ],
+  "name": "Data-Blitz-Analytics",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "Data-Blitz-Analytics"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "dependencies": {
+    "source": {
+      "type": "webSource",
+      "appNodeUri": [
+        "sources",
+        "TuplesHttpSource"
+      ]
+    }
+  }
+}

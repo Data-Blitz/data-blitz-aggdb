@@ -1,0 +1,55 @@
+{
+  "_id": "example-geo.aggregation",
+  "aggregation": "example-geo",
+  "description": "Data about an example place",
+  "index": {
+    "handler": "noOp",
+    "template": {
+    }
+  },
+  "topics": {
+    "example-topic": {
+      "description": "Human movement",
+      "index": {
+        "handler": "noOp",
+        "template": {
+        }
+      },
+      "databases": {
+        "head-count": {
+          "description": "Bus usage head count by route",
+          "index": {
+            "handlerAlias": "geoPoint",
+            "template": {
+              "mappings": {
+                "type": {
+                  "properties": {
+                    "geometry": {
+                      "type": "geo_point"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "dataStoreController": "elasticSearch",
+          "pushFilters": [
+            {
+              "handlerAlias": "noOp",
+              "template": {
+              }
+            }
+          ],
+          "views": {
+            "_adhoc": {
+              "handleAlias": "_adhoc",
+              "template": {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

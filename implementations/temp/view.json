@@ -1,0 +1,21 @@
+{
+  "aggregation": "example-geo",
+  "topic":"example-topic",
+  "database":"head-count",
+  "view":"_adhoc",
+  "dsl":{
+    "query": {
+      "filtered": {
+        "filter": {
+          "geo_distance": {
+            "distance": "10km",
+            "geometry": {
+              "lat": -93.100705,
+              "lon": 44.945461
+            }
+          }
+        }
+      }
+    }
+  }
+}

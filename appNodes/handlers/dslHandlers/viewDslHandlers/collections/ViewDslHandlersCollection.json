@@ -1,0 +1,32 @@
+{
+  "appNodeUri": [
+    "handlers",
+    "dslHandlers",
+    "viewDslHandlers",
+    "collections",
+    "ViewDslHandlersCollection"
+  ],
+  "name": "ViewDslHandlersCollection",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "ViewDslHandlersCollection"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "dependencies": {
+    "_adhoc": {
+      "appNodeUri": ["handlers","dslHandlers","viewDslHandlers","_AdhocViewDslHandler"]
+    },
+    "couchdbMapReduce": {
+      "appNodeUri": ["handlers","dslHandlers","viewDslHandlers","couchdbViewDslHandlers","MapReduceViewDslHandler"]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "appNodeUri": [
+    "dataStoreControllers",
+    "collections",
+    "AggDBDataStoreCollection"
+  ],
+  "name": "AggDBDataStoreCollection",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "AggDBDataStoreCollection"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "dependencies": {
+    "couchdb": {
+      "appNodeUri": [
+        "dataStoreControllers",
+        "CouchdbDataStoreDataController"
+      ]
+    },
+    "elasticSearch": {
+      "appNodeUri": [
+        "dataStoreControllers",
+        "ElasticSearchDataStoreController"
+      ]
+    }
+
+  }
+}

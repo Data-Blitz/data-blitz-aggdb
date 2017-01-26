@@ -1,0 +1,15 @@
+{
+  "appNodeUri": ["handlers","dslHandlers","viewDslHandlers","couchdbViewDslHandlers","MapReduceViewDslHandler"],
+  "name": "MapReduceViewDslHandler",
+  "version": 0,
+  "configuration": {
+  },
+  "logger":{
+    "configuration":{
+      "idTag":["MapReduceViewDslHandler"],
+      "logLevel":2
+    },
+    "appNodeUri": ["loggers","WinstonLogger"]
+  },
+  "implPath": "handlers/dslHandlers/viewDslHandlers/couchdbViewDslHandlers/mapReduceViewDslHandler"
+}

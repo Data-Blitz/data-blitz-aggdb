@@ -1,0 +1,32 @@
+{
+  "appNodeUri": [
+    "handlers",
+    "payloadToTupleHandlers",
+    "collections",
+    "TupleHandlerCollection"
+  ],
+  "name": "TupleHandlerCollection",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "TupleHandlerCollection"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "dependencies": {
+    "csvToTuple": {
+      "appNodeUri": [  "handlers","payloadToTupleHandlers","CsvToTupleHandler"]
+    },
+    "geoJsonToTuple": {
+      "appNodeUri": ["handlers","payloadToTupleHandlers","GeoJsonToTupleHandler" ]
+    }
+  }
+}
+

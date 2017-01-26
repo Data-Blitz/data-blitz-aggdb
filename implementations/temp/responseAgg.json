@@ -1,0 +1,457 @@
+{
+  "took": 138,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1260,
+    "max_score": 0.8806038,
+    "hits": [
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sWokM5otoEd5MK3",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "3",
+            "Dir": "EAST",
+            "site_id": 1246,
+            "StopName": "Cedar St & 5th St",
+            "GroupID": null,
+            "latitude": 44.94591,
+            "longitude": -93.092975,
+            "xcoordinat": 492666.29,
+            "ycoordinat": 4976945.9,
+            "City": "SAINT PAUL",
+            "Trips": 78,
+            "ObsTrips": 78,
+            "Schedule": "Weekday",
+            "Ons": "9",
+            "Offs": "251",
+            "Seq": 124,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 251,
+            "Ons_int": 9
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.092975,
+              44.94591
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sWokM5otoEd5MK8",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "3",
+            "Dir": "EAST",
+            "site_id": 2793,
+            "StopName": "Kellogg Blvd & Minnesota St",
+            "GroupID": null,
+            "latitude": 44.944982,
+            "longitude": -93.090373,
+            "xcoordinat": 492871.42,
+            "ycoordinat": 4976842.57,
+            "City": "SAINT PAUL",
+            "Trips": 32,
+            "ObsTrips": 32,
+            "Schedule": "Weekday",
+            "Ons": "0",
+            "Offs": "6",
+            "Seq": 126,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 6,
+            "Ons_int": 0
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.090373,
+              44.944982
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sW4kM5otoEd5MLD",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "3",
+            "Dir": "WEST",
+            "site_id": 56164,
+            "StopName": "12th St W & John Ireland Blvd",
+            "GroupID": null,
+            "latitude": 44.951319,
+            "longitude": -93.104096,
+            "xcoordinat": 491789.69,
+            "ycoordinat": 4977547.88,
+            "City": "SAINT PAUL",
+            "Trips": 77,
+            "ObsTrips": 77,
+            "Schedule": "Weekday",
+            "Ons": "7",
+            "Offs": "2",
+            "Seq": 8,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 2,
+            "Ons_int": 7
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.104096,
+              44.951319
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sW5kM5otoEd5MLG",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "3",
+            "Dir": "WEST",
+            "site_id": 11891,
+            "StopName": "Rice St & Sears Entrance",
+            "GroupID": null,
+            "latitude": 44.954215,
+            "longitude": -93.105825,
+            "xcoordinat": 491653.75,
+            "ycoordinat": 4977869.75,
+            "City": "SAINT PAUL",
+            "Trips": 77,
+            "ObsTrips": 77,
+            "Schedule": "Weekday",
+            "Ons": "4",
+            "Offs": "4",
+            "Seq": 10,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 4,
+            "Ons_int": 4
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.105825,
+              44.954215
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sW6kM5otoEd5MLJ",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "3",
+            "Dir": "WEST",
+            "site_id": 10489,
+            "StopName": "Rice St & Como Ave",
+            "GroupID": null,
+            "latitude": 44.958863,
+            "longitude": -93.105868,
+            "xcoordinat": 491651,
+            "ycoordinat": 4978386.08,
+            "City": "SAINT PAUL",
+            "Trips": 39,
+            "ObsTrips": 39,
+            "Schedule": "Weekday",
+            "Ons": "8",
+            "Offs": "7",
+            "Seq": 41,
+            "PctSampled": "100%",
+            "Downtown": "FALSE",
+            "Comment": null,
+            "Offs_int": 7,
+            "Ons_int": 8
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.105868,
+              44.958863
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sW8kM5otoEd5MLL",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "16",
+            "Dir": "EAST",
+            "site_id": 56163,
+            "StopName": "John Ireland Blvd & Rice St",
+            "GroupID": null,
+            "latitude": 44.951222,
+            "longitude": -93.105232,
+            "xcoordinat": 491700.08,
+            "ycoordinat": 4977537.21,
+            "City": "SAINT PAUL",
+            "Trips": 46,
+            "ObsTrips": 46,
+            "Schedule": "Weekday",
+            "Ons": "0",
+            "Offs": "1",
+            "Seq": 45,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 1,
+            "Ons_int": 0
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.105232,
+              44.951222
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sW_kM5otoEd5MLP",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "16",
+            "Dir": "EAST",
+            "site_id": 1246,
+            "StopName": "Cedar St & 5th St",
+            "GroupID": null,
+            "latitude": 44.94591,
+            "longitude": -93.092975,
+            "xcoordinat": 492666.29,
+            "ycoordinat": 4976945.9,
+            "City": "SAINT PAUL",
+            "Trips": 46,
+            "ObsTrips": 46,
+            "Schedule": "Weekday",
+            "Ons": "2",
+            "Offs": "120",
+            "Seq": 49,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 120,
+            "Ons_int": 2
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.092975,
+              44.94591
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sXFkM5otoEd5MLa",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "16",
+            "Dir": "WEST",
+            "site_id": 56165,
+            "StopName": "John Ireland Blvd & Rice St",
+            "GroupID": null,
+            "latitude": 44.951164,
+            "longitude": -93.105734,
+            "xcoordinat": 491660.45,
+            "ycoordinat": 4977530.81,
+            "City": "SAINT PAUL",
+            "Trips": 48,
+            "ObsTrips": 48,
+            "Schedule": "Weekday",
+            "Ons": "1",
+            "Offs": "3",
+            "Seq": 8,
+            "PctSampled": "100%",
+            "Downtown": "FALSE",
+            "Comment": null,
+            "Offs_int": 3,
+            "Ons_int": 1
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.105734,
+              44.951164
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sXGkM5otoEd5MLd",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "16",
+            "Dir": "WEST",
+            "site_id": 56167,
+            "StopName": "Marion St & Fuller Ave",
+            "GroupID": null,
+            "latitude": 44.953921,
+            "longitude": -93.109113,
+            "xcoordinat": 491394.36,
+            "ycoordinat": 4977837.44,
+            "City": "SAINT PAUL",
+            "Trips": 48,
+            "ObsTrips": 48,
+            "Schedule": "Weekday",
+            "Ons": "4",
+            "Offs": "11",
+            "Seq": 11,
+            "PctSampled": "100%",
+            "Downtown": "FALSE",
+            "Comment": null,
+            "Offs_int": 11,
+            "Ons_int": 4
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.109113,
+              44.953921
+            ]
+          }
+        }
+      },
+      {
+        "_index": "example-geo-example-topic",
+        "_type": "head-count",
+        "_id": "AVlv6sXHkM5otoEd5MLg",
+        "_score": 0.8806038,
+        "_source": {
+          "type": "Feature",
+          "properties": {
+            "Provider": "Metro Transit",
+            "Route_Type": "Urb Loc",
+            "Route": "21",
+            "Dir": "EAST",
+            "site_id": 11834,
+            "StopName": "5th St & 7th St W",
+            "GroupID": null,
+            "latitude": 44.945461,
+            "longitude": -93.100705,
+            "xcoordinat": 492056.39,
+            "ycoordinat": 4976896.82,
+            "City": "SAINT PAUL",
+            "Trips": 67,
+            "ObsTrips": 67,
+            "Schedule": "Weekday",
+            "Ons": "10",
+            "Offs": "40",
+            "Seq": 87,
+            "PctSampled": "100%",
+            "Downtown": "TRUE",
+            "Comment": null,
+            "Offs_int": 40,
+            "Ons_int": 10
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.100705,
+              44.945461
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "top_ten_providers": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "metro",
+          "doc_count": 1133
+        },
+        {
+          "key": "transit",
+          "doc_count": 1133
+        },
+        {
+          "key": "council",
+          "doc_count": 67
+        },
+        {
+          "key": "met",
+          "doc_count": 67
+        },
+        {
+          "key": "minnesota",
+          "doc_count": 60
+        },
+        {
+          "key": "valley",
+          "doc_count": 60
+        }
+      ]
+    }
+  }
+}

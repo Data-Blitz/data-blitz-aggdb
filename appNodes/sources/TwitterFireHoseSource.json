@@ -1,0 +1,41 @@
+{
+  "appNodeUri": [
+    "sources",
+    "AggDbWebSource"
+  ],
+  "name": "AggDbWebSource",
+  "version": 0,
+  "configuration": {
+    "sourceUrl": "/aggDB",
+    "sourcePort": 8869
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "AggDbWebSource"
+      ],
+      "logLevel": 2
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "sources/aggDbWebSource",
+  "dependencies": {
+
+    "polyglotController": {
+      "appNodeUri": [
+        "polyglotControllers",
+        "PolyglotController"
+      ]
+    },
+    "tweetDslHandler": {
+      "appNodeUri": [
+        "handlers",
+        "dslHandlers",
+        "TweetDslHandler"
+      ]
+    }
+  }
+}

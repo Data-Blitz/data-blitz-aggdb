@@ -1,0 +1,15 @@
+{
+  "appNodeUri": ["handlers","indexHandlers","elasticSearchIndexHandlers","GeoJsonShapeIndexHandler"],
+  "name": "GeoJsonShapeIndexHandler",
+  "version": 0,
+  "configuration": {
+  },
+  "logger":{
+    "configuration":{
+      "idTag":["GeoJsonShapeIndexHandler"],
+      "logLevel":2
+    },
+    "appNodeUri": ["loggers","WinstonLogger"]
+  },
+  "implPath": "handlers/indexHandlers/elasticSearchIndexHandlers/geoJsonShapeIndexHandler"
+}

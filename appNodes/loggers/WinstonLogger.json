@@ -1,0 +1,10 @@
+{
+  "appNodeUri": ["loggers","WinstonLogger"],
+  "name": "WinstonLogger",
+  "version": 0,
+  "configuration": {
+    "description":"Winston Logger Node.js log framework",
+    "logLevel": "debug"
+  },
+  "implPath": "loggers/winstonLogger"
+}

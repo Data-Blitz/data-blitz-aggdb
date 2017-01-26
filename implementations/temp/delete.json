@@ -1,0 +1,9 @@
+{
+  "aggregationId": "example-geo.aggregation",
+  "aggregation": "example-geo",
+  "verb": "delete",
+  "topics": {
+    "example-topic": {
+    }
+  }
+}

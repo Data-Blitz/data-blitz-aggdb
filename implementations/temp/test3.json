@@ -1,0 +1,106 @@
+{
+  "example-geo-example-topic": {
+    "aliases": {},
+    "mappings": {
+      "head-count": {
+        "properties": {
+          "geometry": {
+            "properties": {
+              "coordinates": {
+                "type": "double"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          },
+          "properties": {
+            "properties": {
+              "City": {
+                "type": "string"
+              },
+              "Comment": {
+                "type": "string"
+              },
+              "Dir": {
+                "type": "string"
+              },
+              "Downtown": {
+                "type": "string"
+              },
+              "ObsTrips": {
+                "type": "long"
+              },
+              "Offs": {
+                "type": "string"
+              },
+              "Offs_int": {
+                "type": "long"
+              },
+              "Ons": {
+                "type": "string"
+              },
+              "Ons_int": {
+                "type": "long"
+              },
+              "PctSampled": {
+                "type": "string"
+              },
+              "Provider": {
+                "type": "string"
+              },
+              "Route": {
+                "type": "string"
+              },
+              "Route_Type": {
+                "type": "string"
+              },
+              "Schedule": {
+                "type": "string"
+              },
+              "Seq": {
+                "type": "long"
+              },
+              "StopName": {
+                "type": "string"
+              },
+              "Trips": {
+                "type": "long"
+              },
+              "latitude": {
+                "type": "double"
+              },
+              "longitude": {
+                "type": "double"
+              },
+              "site_id": {
+                "type": "long"
+              },
+              "xcoordinat": {
+                "type": "double"
+              },
+              "ycoordinat": {
+                "type": "double"
+              }
+            }
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "creation_date": "1483640690980",
+        "number_of_shards": "5",
+        "number_of_replicas": "1",
+        "version": {
+          "created": "1070399"
+        },
+        "uuid": "UPibl77USmyYhfwmAdexUw"
+      }
+    },
+    "warmers": {}
+  }
+}

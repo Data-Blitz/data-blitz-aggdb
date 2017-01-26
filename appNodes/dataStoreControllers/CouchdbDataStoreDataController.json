@@ -1,0 +1,40 @@
+{
+  "appNodeUri": [
+    "dataStoreControllers",
+    "CouchdbDataStoreDataController"
+  ],
+  "name": "Couchdb",
+  "type": "dataStoreController",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "CouchdbDataStoreDataController"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "dataStoreControllers/couchdbDataStoreController",
+  "dependencies": {
+    "dataStore": {
+      "type": "dataStoreClient",
+      "configuration": {
+        "url": "localhost",
+        "port": 5984
+      }
+    },
+    "indexHandlers": {
+      "appNodeUri": [
+        "handlers",
+        "indexHandlers",
+        "collections",
+        "IndexHandlerCollection"
+      ]
+    }
+  }
+}

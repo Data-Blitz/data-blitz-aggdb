@@ -1,0 +1,15 @@
+{
+  "appNodeUri": ["handlers","payloadToTupleHandlers","CsvToTupleHandler" ],
+  "name": "CsvToTupleHandler",
+  "version": 0,
+  "configuration": {
+  },
+  "logger":{
+    "configuration":{
+      "idTag":["CsvToTupleHandler"],
+      "logLevel":2
+    },
+    "appNodeUri": ["loggers","WinstonLogger"]
+  },
+  "implPath": "handlers/payloadToTupleHandlers/csvToTupleHandler"
+}

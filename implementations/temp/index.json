@@ -1,0 +1,9 @@
+{
+  "aggregation": "example-geo",
+  "topic":"example-topic",
+  "database":"head-count",
+  "verb":"index",
+  "dsl":{
+    "geoAttribute":"geometry"
+  }
+}

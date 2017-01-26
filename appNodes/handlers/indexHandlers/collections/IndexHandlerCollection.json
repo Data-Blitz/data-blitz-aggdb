@@ -1,0 +1,34 @@
+{
+  "appNodeUri": [
+    "handlers",
+    "indexHandlers",
+    "collections",
+    "IndexHandlerCollection"
+  ],
+  "name": "IndexHandlerCollection",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "IndexHandlerCollection"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "dependencies": {
+
+    "geoJson": {
+      "appNodeUri": ["handlers","indexHandlers","elasticSearchIndexHandlers","GeoJsonPointIndexHandler"]
+    },
+    "noOp": {
+      "appNodeUri": ["handlers","indexHandlers","NoOp"]
+    }
+
+  }
+}
+

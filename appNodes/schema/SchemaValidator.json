@@ -1,0 +1,37 @@
+{
+  "appNodeUri": [
+    "schema",
+    "SchemaValidator"
+  ],
+  "name": "SchemaValidator",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "SchemaValidatorr"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "schema/schemaValidator",
+  "configuration": {
+    "schemaRepo": {
+      "aggregation": "aggDB",
+      "topic": "schema-validator",
+      "database": "schemas"
+    }
+  },
+  "dependencies": {
+    "schemaRepoisitory": {
+      "appNodeUri": [
+        "dataStoreControllers",
+        "CouchdbDataStoreDataController"
+      ]
+    }
+  }
+}

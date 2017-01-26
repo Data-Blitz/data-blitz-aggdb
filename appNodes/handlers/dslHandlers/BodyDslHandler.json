@@ -1,0 +1,24 @@
+{
+  "appNodeUri": ["handlers","dslHandlers","BodyDslHandler"],
+  "name": "BodyDslHandler",
+  "version": 0,
+  "configuration": {
+  },
+  "logger":{
+    "configuration":{
+      "idTag":["BodyDslHandler"],
+      "logLevel":2
+    },
+    "appNodeUri": ["loggers","WinstonLogger"]
+  },
+  "implPath": "handlers/dslHandlers/bodyDslHandler",
+  "dependencies": {
+    "csv":{
+      "appNodeUri": [
+        "handlers",
+        "payloadToTupleHandlers",
+        "CsvToTupleHandler"
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appNodeUri": [
+    "polyglotControllers",
+    "PolyglotController"
+  ],
+  "name": "PolyglotController",
+  "version": 0,
+  "configuration": {
+  },
+  "logger": {
+    "configuration": {
+      "idTag": [
+        "PolyglotController"
+      ]
+    },
+    "appNodeUri": [
+      "loggers",
+      "WinstonLogger"
+    ]
+  },
+  "implPath": "polyglotControllers/polyglotController",
+  "configuration": {
+  },
+  "dependencies": {
+    "uuidGenerator": {
+      "appNodeUri": [
+        "utilities",
+        "IdGenerator"
+      ]
+    },
+    "indexHandlers": {
+      "appNodeUri": [
+        "handlers",
+        "indexHandlers",
+        "collections",
+        "IndexHandlerCollection"
+      ]
+    },
+    "payloadToTupleHandlers": {
+      "appNodeUri": [
+        "handlers",
+        "payloadToTupleHandlers",
+        "collections",
+        "TupleHandlerCollection"
+      ]
+    },
+
+    "viewHandlers": {
+      "appNodeUri": [
+        "handlers",
+        "dslHandlers",
+        "viewDslHandlers",
+        "collections",
+        "ViewDslHandlersCollection"
+      ]
+    },
+    "aggDB": {
+       "appNodeUri": [
+      "dataStoreControllers",
+      "CouchDbDataStoreDataController"
+      ]
+    },
+
+    "dataStoreControllers": {
+      "appNodeUri": [
+        "dataStoreControllers",
+        "collections",
+        "AggDBDataStoreCollection"
+      ]
+    }
+  }
+}

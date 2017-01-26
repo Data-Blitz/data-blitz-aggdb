@@ -1,0 +1,1 @@
+module.exports = {    "ready": function(aDsl) {        console.log('ready')    },    "get": function(aModulePath){        var myModule = require(aModulePath);        return(myModule);    }}
